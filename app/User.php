@@ -29,6 +29,6 @@ class User extends Authenticatable
 
     public function services()
     {
-      return $this->hasMany('App\Service');
+        return $this->hasMany('App\Service');
     }
 }
